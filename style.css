@@ -1,0 +1,183 @@
+#logo{
+    width:20%;
+    height:10%;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    width:15%;
+    overflow:auto;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+li a:hover:not(.active){
+    background-color:#555;
+    color:white;
+
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+@media only screen and (max-width:600px){
+    .col-1 {width:15%;}
+    .col-2 {width:85%;}
+    li a {font-size:13px;
+        padding: 20px 15px;
+    }
+}
+@media only screen and (min-width:600px){
+    .col-t1 {width:15%;}
+    .col-t2 {width:85%;}
+    li a {font-size:15px;
+        padding: 20px 20px;
+    }
+}
+@media only screen and (min-width:768px){
+    .col-l1 {width:15%;}
+    .col-l2 {width:85%;}
+    li a {font-size:15px;
+        padding: 20px 40px;
+    }
+}
+@media only screen and (min-width:992px){
+    .col-d1 {width:15%;}
+    .col-d2 {width:85%;}
+    li a {font-size:18px;
+        padding: 20px 40px;
+    }
+}
+#body{
+    padding:40px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 4px solid black;
+    font-family: 'Times New Roman';
+}
+img{
+    display: block;
+    
+    padding-bottom: 20px;
+}
+h2{
+    color:#04AA6D;
+}
+#Ali{
+    grid-template-columns: auto auto;
+    display:grid;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+#Hannah{
+    grid-template-columns: auto auto;
+    display:grid;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+#Justin{
+    grid-template-columns: auto auto;
+    display:grid;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+#Alfred{
+    grid-template-columns: auto auto;
+    display:grid;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+#Dennis{
+    grid-template-columns: auto auto;
+    display:grid;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+#blogs{
+    display:inline-block;
+    margin-bottom: 20px;
+}
+.img1{
+    height:80%;
+    width:80%;
+}
+.img2{
+    height:80%;
+    width:80%;
+}
+.img3{
+    height:80%;
+    width:80%;
+}
+.img4{
+    height:80%;
+    width:80%;
+}
+.img5{
+    height:80%;
+    width:80%;
+}
+#reviews{
+    
+    display: block;
+   
+}
+#about1 {
+    
+    border-left:2px solid #04AA6D;
+    
+    padding:20px;
+    font-family:'Times New Roman';
+    margin-left:0%;
+}
+#about2 {
+    
+    border-left:2px solid #04AA6D;
+    
+    padding:20px;
+    font-family:'Times New Roman';
+    margin-left:0%;
+}
+#about3 {
+    
+    border-left:2px solid #04AA6D;
+    
+    padding:20px;
+    font-family:'Times New Roman';
+    margin-left:0%;
+}
+#about4 {
+    
+    border-left:2px solid #04AA6D;
+    
+    padding:20px;
+    font-family:'Times New Roman';
+    margin-left:0%;
+}
+#about5 {
+    
+    border-left:2px solid #04AA6D;
+    
+    padding:20px;
+    font-family:'Times New Roman';
+    margin-left:0%;
+}
